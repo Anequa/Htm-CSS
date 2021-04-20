@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h1>Forms!</h1>
+    <form action="">
+        <p><label for="Imie">Give me your name</label>
+            <input type="text" placeholder="Imie" id='Imie' name="name" required>
+        </p>
+        <p><label for="Haslo">Enter your password</label>
+            <input type="password" placeholder="Haslo" id="Haslo" name="password"  required minlength="5">
+        </p>
+        <p><label for="numer">Give me ur numer</label>
+            <input type="number" placeholder="phone number" id="numer" name="number">
+        </p>
+        <p>
+            <label for="color">Give me color</label>
+            <input type="color" id="color" name="color">
+        </p>
+        <button type="button">Im not submitting</button>
+        <button type="submit">Im submitting</button>
+        <input type="button" value="Click">
+
+    </form>
+    <form action="https://www.google.com/search">
+        <input type="text" name='d'>
+        <button>Search google </button>
+    </form>
+    <h2>More imputs</h2>
+    <form>
+        <input type="checkbox" name="agree" id="agree">
+        <label for="agree"> I agree</label>
+        <label for=nr1>Numer 1</label>
+        <input type="radio" name="radio" id="nr1" value="it will be sended to server">
+        <label for=nr2>Numer2</label>
+        <input type="radio" name="radio" id="nr2" value="it will be sended to server2">
+        <label for=nr3>Numer3</label>
+        <input type="radio" name="radio" id="nr3" value="it will be sended to server3">
+        <button>Submit</button>
+    </form>
+    <form>
+        <Label for="selector">Select ur fav animal</Label>
+        <select name="selector" id="selector">
+            <option value="dog">Doggie</option>
+            <option value="cat">catze</option>
+            <option value="frog">froggiee</option>
+            <option value="bat">battie</option>
+
+        </select>
+        <button>Submit</button>
+        <p>
+            <label for="Textarea">Anything else?</label><br>
+            <textarea name="area" id="Textarea" cols="30" rows="10"></textarea>
+        </p>
+    </form>
+
+</body>
+
+</html>
